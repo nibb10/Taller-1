@@ -30,7 +30,7 @@ btn_publicar.addEventListener("click", function(){
 const drawApp = (nombre, comentario, fecha) => {
     caja_de_comentarios.innerHTML = `
     <div class="media">
-    <img src="icono.png" width="64" height="64">
+    <img src="images/icono.png" width="64" height="64">
         <div class="media-body">
             <p class="nombre">${nombre} <span>${fecha}</span></p>
             <p class="comentario">${comentario}</p>
