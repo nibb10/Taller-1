@@ -1,0 +1,77 @@
+.container-fluid{
+    margin-top: 4em;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.card{
+    align-items: center;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer{
+    background-color: white;
+}
+
+h5{
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, h3{
+    color: black;
+}
+
+.card-title{
+    color: black;
+}
+
+.media{
+    border-top: 1px solid #bfbfbf;
+    padding-top: 20px;
+}
+
+.media img{
+    margin-right: 20px;
+}
+
+.media .nombre {
+    color: #4b65d1;
+    margin-bottom: 0;
+}
+
+.media .nombre span{
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+}
+
+.media .comentario {
+    margin-top: 10px;
+}
+
+.input-group {
+    width: 40%;
+}
+
+#comentario{
+    max-height: 7em;
+}
+
+@media screen and (max-width: 979px) {
+    #portada {
+      width: 320px;
+      height: 180px;
+    }
+  }
